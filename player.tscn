@@ -78,6 +78,7 @@ _data = {
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dw050"]
+size = Vector2(25, 23)
 
 [node name="player" type="CharacterBody2D"]
 
@@ -100,6 +101,6 @@ libraries = {
 position = Vector2(3, 0)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Melee"]
-position = Vector2(17, 0)
+position = Vector2(16.5, 1.5)
 shape = SubResource("RectangleShape2D_dw050")
 debug_color = Color(0.680418, 0.446493, 0.622043, 0.42)
